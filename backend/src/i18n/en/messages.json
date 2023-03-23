@@ -1,0 +1,12 @@
+{
+  "ARTICLE_NOT_FOUND": "Article was not found!",
+  "EMAIL_ALREADY_REGISTERED": "Email already registered.",
+  "EMAIL_CONFIRMATION_LINK_WRONG": "The email confirmation link is wrong or expired.",
+  "ACCOUNT_LOCKED": "The account is locked due to multiple sign-in failures. Please try again later.",
+  "USER_NOT_FOUND": "User not found.",
+  "WRONG_EMAIL_PASSWORD": "Wrong email or password.",
+  "EMAIL_EXISTED": "Already exist user used the email",
+  "RESET_PASSWORD_LINK_WRONG": "The reset password link is wrong or expired",
+  "RESET_PASSWORD_LINK_EXPIRED": "The reset password link is expired",
+  "PASSWORD_CHANGE_ERROR": "New password must be different from old password!"
+}

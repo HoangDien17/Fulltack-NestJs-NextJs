@@ -1,0 +1,37 @@
+version: '3.8'
+services:
+  bid-mongo:
+    image: mongo
+    container_name: bid-mongo
+    ports:
+      - 27017:27017
+    volumes:
+      - mongodb:/data/db
+    restart: unless-stopped
+    networks:
+      - bid_network
+  bid-backend:
+    container_name: bid-backend
+    build:
+      context: .
+    depends_on:
+      - bid-mongo
+    ports:
+      - 3000:3000
+    volumes:
+      - .:/opt/app
+    restart: unless-stopped
+    environment:
+      - NODE_ENV=development
+      - PORT=3000
+      - MONGO_URL=mongodb://bid-mongo:27017/bid
+      - JWT_SECRET_KEY=tj8XKXPtq9s9vNWn
+      - JWT_ACCESS_TOKEN_EXPIRY_TIME=1d
+    networks:
+      - bid_network
+    
+volumes:
+  mongodb:
+networks:
+  bid_network:
+    driver: bridge      

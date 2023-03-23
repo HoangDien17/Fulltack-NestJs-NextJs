@@ -1,0 +1,12 @@
+{
+  "ARTICLE_NOT_FOUND": "記事が見つかりませんでした",
+  "EMAIL_ALREADY_REGISTERED": "すでに登録されたメール",
+  "EMAIL_CONFIRMATION_LINK_WRONG": "メール確認リンクが間違っているか期限切れです",
+  "ACCOUNT_LOCKED": "サインインに複数回失敗したため、アカウントがロックされています。 後でもう一度やり直してください。",
+  "USER_NOT_FOUND": "ユーザーが見つかりません。",
+  "WRONG_EMAIL_PASSWORD": "メールアドレスまたはパスワードが間違っています。",
+  "EMAIL_EXISTED": "すでに存在するユーザーがメールを使用しました",
+  "RESET_PASSWORD_LINK_WRONG": "パスワードのリセット リンクが間違っているか、有効期限が切れています",
+  "RESET_PASSWORD_LINK_EXPIRED": "パスワードのリセット リンクの有効期限が切れています",
+  "PASSWORD_CHANGE_ERROR": "新しいパスワードは古いパスワードとは異なる必要があります!"
+}
